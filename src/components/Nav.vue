@@ -8,12 +8,13 @@
             <ul class = "flex space-x-4">
                 <router-link to ="/"><li class="py-8 px-4 hover:cursor-pointer hover:bg-purple-500 hover:text-purple-800">Home
                 </li> </router-link>
-                <router-link to ="/about">
+                <router-link to ="{ name: 'About'}">
                 <li class="py-8 px-4 hover:cursor-pointer hover:bg-purple-500 hover:text-purple-800">About
                 </li></router-link>
-                <router-link to ="/login">
+                <router-link to ="{ path:'/login', name: 'Login'}">
                 <li class="py-8 px-4 hover:cursor-pointer hover:bg-purple-500 hover:text-purple-800">Login</li></router-link>
-                
+                <router-link to ="{ name:'Secret' }">
+                <li class="py-8 px-4 hover:cursor-pointer hover:bg-purple-500 hover:text-purple-800">Secret</li></router-link>
             </ul>
         </nav>
     </div>
