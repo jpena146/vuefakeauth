@@ -17,8 +17,8 @@ const logginIn = () => {
   }
 };
 const { error, setError } = useError();
-//import { useTimeout, promiseTimeout } from "@vueuse/core";
-//const { ready, start } = useTimeout(3000, { controls: true });
+import { useTimeout, promiseTimeout } from "@vueuse/core";
+const { ready, start } = useTimeout(3000, { controls: true });
 </script>
 
 <template>
